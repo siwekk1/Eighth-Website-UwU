@@ -70,12 +70,21 @@ h1
 .photo1
 {
 	width: 450px;
+	transition: all 1s ease-in-out;
 }
-
+.photo1:hover{
+transform: scale(0.9);
+opacity: 0.1;
+}
 
 .photo2
 {
 	width: 450px;
+	transition: transform 1s ease-in-out;
+}
+.photo2:hover{
+
+	transform: scale(0.8) rotate(360deg);
 }
 
 .photo3
